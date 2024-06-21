@@ -1,4 +1,4 @@
-# reddit-sentiment-analysis
+# red-s-ana
 This program goes through reddit, finds the most mentioned tickers and uses Vader SentimentIntensityAnalyzer to calculate the ticker compound value.  
 
 ## Program Parameters
@@ -49,12 +49,6 @@ TSLA  &nbsp; 0.088  &nbsp; 0.650  &nbsp;&nbsp; 1.543    &nbsp;&nbsp;&nbsp;      
 MVIS  &nbsp; 0.155  &nbsp; 0.698  &nbsp;&nbsp; 1.714    &nbsp;&nbsp;&nbsp;     -0.020
 ![](mentioned.png)
 ![](sentiment.png)
-
-## Data:
-Includes US stocks with market cap > 100 Million, and price above $3. It doesn't include penny stocks.\
-You can download data from here:\
-Source (US stocks):  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download\
-
 
 
 ## License
